@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Text with Images</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+        .neon-text {
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem;
+            color: #ff66b2; /* Dark pink */
+            text-shadow: 
+                0 0 2px #ff66b2, 
+                0 0 4px #ff66b2, 
+                0 0 6px #ff66b2, 
+                0 0 8px #ff66b2;
+            margin-bottom: 20px;
+        }
+        .images {
+            display: flex;
+            gap: 20px;
+        }
+        .images img {
+            max-width: 300px;
+            border: 5px solid #ff66b2; /* Dark pink border for contrast */
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ff66b2; /* Glow effect for images */
+        }
+    </style>
+</head>
+<body>
+    <div class="neon-text">Padhle IIT jaana hai</div>
+    <div class="images">
+        <img src="IIT Delhi.jpg" alt="IIT Delhi">
+        <img src="IIT roorkee.jpg" alt="IIT Roorkee">
+    </div>
+</body>
+</html>
